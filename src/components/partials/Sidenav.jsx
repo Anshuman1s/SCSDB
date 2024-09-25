@@ -42,7 +42,7 @@ function Sidenav() {
         </h1>
         <Link className="hover:bg-[#6556cd] hover:text-white duration-300 rounded-lg p-5  ">
           <i className="mr-2 ri-information-line"></i>
-          About Us
+          About Netlix
         </Link>
         <Link className="hover:bg-[#6556cd] hover:text-white duration-300 rounded-lg p-5  ">
           <i className="mr-2 ri-contacts-line"></i>
