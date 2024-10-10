@@ -13,7 +13,7 @@ function People() {
   const [person, setPerson] = useState([]);
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
-  document.title = "SCSDB | Person "
+  document.title = "Netlix | Person "
 
 
   const GetPerson = async () => {
