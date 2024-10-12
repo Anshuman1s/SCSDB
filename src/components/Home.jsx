@@ -50,7 +50,7 @@ function Home() {
           <h1 className="text-3xl font-seminold text-zinc-400">Trending</h1>
 
           <Dropdown
-            title="filter"
+            title="FILTER"
             options={["tv", "movie", "all"]}
             func={(e) => setCategory(e.target.value)}
           />
