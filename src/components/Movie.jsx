@@ -61,7 +61,7 @@ function Movie() {
         <div className="flex items-center w-[80%] ">
           <Topnav />
           <Dropdown
-            title="Category"
+            title="CATEGORY"
             options={["popular", "top_rated", "upcoming", 'now_playing' ]}
             func={(e) => setCategory(e.target.value)}
           />
