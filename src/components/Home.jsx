@@ -46,7 +46,7 @@ function Home() {
         <Header data={wallpaper} />
 
         <div className=" flex justify-between p-5">
-          <h1 className="text-3xl font-seminold text-zinc-400">Trending</h1>
+          <h1 className="text-3xl font-semibold text-zinc-400">Trending</h1>
 
           <Dropdown
             title="FILTER"

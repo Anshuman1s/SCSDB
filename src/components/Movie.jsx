@@ -73,7 +73,7 @@ function Movie() {
         dataLength={movie.length}
         next={GetMovie}
         hasMore={hasMore}
-        loader={<h1>Loading...</h1>}
+        loader={<h1 className="bg-blue-300 text-yellow-300 align-center">Loading...</h1>}
       >
         <Cards data={movie} title='movie' />
       </InfiniteScroll>

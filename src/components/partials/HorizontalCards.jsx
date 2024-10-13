@@ -14,8 +14,7 @@ function HorizontalCards({ data }) {
           <img
             className="w-full h-[55%] object-cover "
             src={d.poster_path || d.backdrop_path ? `https://image.tmdb.org/t/p/original/${
-              d.poster_path ||d.backdrop_path
-            }` : noimage}
+              d.poster_path ||d.backdrop_path}` : noimage}
             alt=""
           />
           <div className="text-white p-3 h-[45%] overflow-y-auto ">
